@@ -14,8 +14,8 @@ let employees = {
 // create projects for the company
 let projects = {
   project1: new Projects("android", "01:02:2019", 5),
-  project2: new Projects("webapp", "01:01:2019", 5),
-  project3: new Projects("website", "10:10:2019", 5)
+  project2: new Projects("webapp", "01:01:2019", 6),
+  project3: new Projects("website", "10:10:2019", 9)
 };
 
 //assign a task to project
@@ -90,6 +90,7 @@ function displayEmployee(employees) {
 function displayAllTask(projectName) {
   return projectName.assignTask;
 }
+
 //call the projects and assign task to it
 let task = tasks.task1;
 let projectname = projects.project1;
@@ -116,10 +117,12 @@ let getEmployee = employees.employee2;
 let updateEmployee = taskToEmployee(getEmployee, getProject3);
 console.log(updateEmployee);
 
+// delete task from project
 let getProjectName = projects.project1;
 let updateproject = deleteTaskFromProject(getProjectName);
 console.log(updatepro);
 
+// display all eployee and task from
 console.log(displayEmployee(employees));
 
 let displayAllTaskin = projects.project2;
