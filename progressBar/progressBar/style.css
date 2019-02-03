@@ -1,0 +1,16 @@
+.green {
+  width: 100%;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+.support {
+  width: 10%;
+  background-color: rgb(71, 231, 71, 0.3);
+  border-radius: 10px;
+}
+.sup {
+  width: 10%;
+  background-color: rgb(12, 25, 94);
+  color: rgb(250, 247, 243, 0.1);
+  border-radius: 10px;
+}
